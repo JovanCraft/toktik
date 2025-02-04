@@ -3,6 +3,8 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import { ResizeMode, Video } from "expo-av";
 
+
+
 export default function UploadScreen() {
   const [videoUri, setVideoUri] = useState<string | null>(null);
 
